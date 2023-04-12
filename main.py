@@ -8,6 +8,8 @@ while guess != secret_word:
     if guess < guess_limit
         guess = input("Enter guess: ")
         guess_count += 1
+    else:
+        guesses_limit_reached = True
 
 print("Congratulations, you win!")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 
