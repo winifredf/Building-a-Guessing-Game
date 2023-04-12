@@ -1,0 +1,2 @@
+Select and use a secret word within the program and have the user interact with the program to try to guess the secret word you selected.
+User should be able to guess and type different responses a limitless amount of times until user gets the secret word right.
