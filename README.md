@@ -4,3 +4,5 @@ Create a variable to hold the secret word.
 Create a variable to hold user's guess(es).
 Prompt user to enter a guess at the secret word. If user does not enter secret word correctly, prompt user to enter another guess.
 Set a limit for the number of times a user can guess the secret word.
+If user guesses secret word within the number of allowed guesses, user wins the game.
+If user fails to guess the secret word within the alloted number of guess, the user loses the game.
