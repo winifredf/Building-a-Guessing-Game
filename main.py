@@ -10,6 +10,8 @@ while guess != secret_word and not(guesses_limit_reached)):
         guess_count += 1
     else:
         guesses_limit_reached = True
-
-print("Congratulations, you win!")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+if guesses_limit_reached:
+    print("You lose")
+else:
+    print("Congratulations, you win!")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 
